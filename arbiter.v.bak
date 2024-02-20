@@ -1,0 +1,10 @@
+module arbiter(
+	input I);
+	
+	
+	wire [32:0] PUFI;
+	
+	pufi PUFI1(I, );	
+	
+
+endmodule

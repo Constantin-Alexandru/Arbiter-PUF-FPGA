@@ -1,0 +1,14 @@
+module mux4x1(
+	input [0:3]I,
+	input [0:2]S,
+	output O
+	);
+	
+	wire M0, M1;
+	
+	mux2x1 MUX0(I[0], I[1], S[0], M0);
+	mux2x1 MUX1(I[2], I[3], S[0], M0);
+	
+	mux2x1 MUX2(M0, M1, S[1], O);
+	
+endmodule

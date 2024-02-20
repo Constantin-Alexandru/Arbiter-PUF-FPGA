@@ -1,0 +1,12 @@
+module memoryread(
+	input start,
+	input length,
+	output reg mem);
+
+	reg [0:0] memory [0:1023];
+	
+	mem <= memory[start:start+length-1]
+	
+	
+
+endmodule

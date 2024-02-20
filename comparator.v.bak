@@ -1,0 +1,10 @@
+module comparator(
+	input[7:0] a,
+	input[7:0] b,
+	output O);
+
+	always @(*) begin
+		O <= (a > b) ? 1'b1 : 1'b0;
+	end
+
+endmodule 

@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at memoryread.v(7): always construct contains both blocking and non-blocking assignments File: H:/projects/Part III Project/Arbiter-PUF-FPGA/memoryread.v Line: 7

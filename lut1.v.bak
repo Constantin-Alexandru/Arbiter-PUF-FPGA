@@ -1,0 +1,9 @@
+module lut1(
+	input [0:1]bits,
+	input A,
+	output O);
+	
+	
+	mux2x1 MUX1(bits[0], bits[1], A, O);
+
+endmodule
